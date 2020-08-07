@@ -33,6 +33,9 @@ class TicTacToe
     @board.find_all { |index| index!=(" ")}.count
   end
  
+  def current_player
+    
+  end
  
  
 end
