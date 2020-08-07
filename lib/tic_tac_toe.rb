@@ -30,7 +30,7 @@ class TicTacToe
   end
  
   def turn_count
-    
+    @board.find_all { |index| !=(" ")}
   end
  
  
